@@ -54,8 +54,22 @@ section {
     transition-delay: 200ms;
 }
 .stack:nth-child(3) {
-    transition-delay: 600ms;
+    transition-delay: 400ms;
 }
 .stack:nth-child(4) {
-    transition-delay: 1000ms;
+    transition-delay: 800ms;
+}
+.stack:nth-child(5) {
+    transition-delay: 1600ms;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+.align-left {
+	float: left;
+}
+.align-right {
+	float: right;
 }
