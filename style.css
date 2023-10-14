@@ -3,6 +3,12 @@ body {
     color: #ffffff;
     padding: 0;
     margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.middle-line {
+    background: linear-gradient(#46c5bc, #46c5bc) no-repeat center/2px 100%;
+    z-index: -1;
 }
 
 section {
@@ -15,7 +21,7 @@ section {
 .container {
     border:  2px solid white;
     border-radius: 10px;
-    padding: 10px
+    padding: 10px;
 }
 
 
