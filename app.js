@@ -1,4 +1,4 @@
-console.log("I see you")
+console.warn("I see you");
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry)=>{
         entry.target.classList.toggle('show', entry.isIntersecting);
